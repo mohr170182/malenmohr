@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Sean Walter's Portfolio</title>
+	<link rel="shortcut icon" href="https://notseanwalters.github.io/seanwalters/assets/images/name_icon.ico" type="image/x-icon">
+	<link rel="icon" href="https://notseanwalters.github.io/seanwalters/assets/images/name_icon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="https://notseanwalters.github.io/seanwalters/portfolio/default.css">
+	<style>
+
+	</style>
+</head>
+
+
+<body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		jQuery('body').css('display', 'none');
+		jQuery(document).ready(function() {
+			jQuery('body').fadeIn();
+			jQuery('a').on('click', function(event) {
+				var thetarget = this.getAttribute('target')
+				if (thetarget != "_blank") {
+					var thehref = this.getAttribute('href')
+					event.preventDefault();
+					jQuery('body').fadeOut(function() {
+						//alert(thehref)
+						window.location = thehref
+					});
+				}
+			});
+		});
+		setTimeout(function() {
+			jQuery('body').fadeIn();
+		}, 1000)
+	</script>
+	<div id="background2"></div>
+	<div id="wrapper">
+		<div id="header">
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio"><img src="https://notseanwalters.github.io/seanwalters/assets/images/banner.png" height="125px" width="900px" /></a>
+		</div>
+		<div id="navbar">
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio" id="button1">Home</a>
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio/resume" id="button2">Resume</a>
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio/education" id="button3">Education Research</a>
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio/career" id="button4">Career Exploration</a>
+			<a href="https://notseanwalters.github.io/seanwalters/portfolio/showcase" id="button5">Showcase</a>
+		</div>
+		<div id="content">
+			<svg width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 100px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="" result="" />
+		    <feFlood flood-color="limegreen" result="flood1" />
+		    <feFlood flood-color="purple" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+
+<g>
+	<text x="0" y="89">RESUME</text>
+</g>
+</svg>
+			<div id="content-text">
+				<h3 style="font-size: 25px; color: white; padding-bottom: 10px;">Sean Walters</h3>
+				<p style="font-size: 18px; color: white; padding-bottom: 10px;">574 Grey Hawk Way<br> Central Point, OR 97502<br>
+					<a style="color: #885ead; text-decoration: none;" href="tel:(541) 292-1862">(541) 292-1862</a><br>
+					<a style="color: #885ead; text-decoration: none;" href="mailto:walters601391@district6.org">walters601391@district6.org</a><br></p>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">PROFILE</h3>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li><b>Fast Learner:</b> quick learner and adapter to new situations to solve them as efficiently and as fast as possible to maintain a 4.00 GPA. Example: learned how to solve a new, complicated math problem in class within a few minutes. </li>
+						<li><b>Hard-worker:</b> solves each and every single problem ran into and doesn’t stop trying with incredible effort until the problem is solved. Example: comes home and works on homework immediately until it is all finished. </li>
+						<li><b>Commited:</b> dedicated to work and puts as much effort possible into everyday assignments, no matter how big or small the job is. Example: worked for more than 10 hours on a photoshop assignment - the Top 10 Things in the CSB Handbook photoshop.</li>
+						<li><b>Implemented:</b> greatly involved in school/work by putting ideas/visions into effect or action and applying them to a real world situation. Example: had an idea for a great aquaponics system last year, sketched the blueprints, and helped bring
+							the idea to life by building pieces and putting it all together.</li>
+						<li><b>Associate:</b> amazing follower by listening, understanding, and executing direction as told to him by an instructor for his school. Example: listened to and followed all directions given by instructor and leader while working with a group in
+							chemistry. </li>
+					</ul>
+				</div>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">EDUCATION</h3>
+				<h3 style="font-size: 20px;">Crater School of Business Innovation and Science - Central Point, OR</h3>
+				<p style="font-size: 18px;">Junior status - graduating June 2018</p>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li>Currently enrolled at the Crater School of Business, Innovation, and Science where business is the glue to all of the classes taken, such as computer applications, media, entrepreneur, interactive math, English, and chemistry, with the advantages
+							of internship placement and college credits through the two-year program known as CSB. </li>
+					</ul>
+				</div>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">WORK EXPERIENCE</h3>
+				<p style="font-size: 18px;"><b>Diamond Lake Square Dance Stage</b></p>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li>Assisted in putting together a stage for the Annual Square Dance Festival at Diamond Lake by carrying wood planks and assembling while working with a team of Young Marines along with others.</li>
+					</ul>
+				</div>
+				<p style="font-size: 18px;"><b>Battle of the Bones</b></p>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li>Raised money for schools, businesses, and charities by selling goods and services, such as raffle tickets, cookies, and prizes, to customers by communicating and having the qualities of a salesman.</li>
+					</ul>
+				</div>
+				<p style="font-size: 18px;"><b>Private Tutoring</b></p>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li>Helps sibling with everyday learning by assisting with homework that has to do with reading, writing, and math.</li>
+						<li>Assisted classmates on various subjects before, during, and after school.</li>
+					</ul>
+				</div>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">ACTIVITIES AND COMMUNITY INVOLVEMENT</h3>
+				<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+					<ul>
+						<li>Private First Class in Young Marines of Southern Oregon.</li>
+						<li>Karate at Chip Wright's Champion Karate.</li>
+						<li>Swimming and gymnastics classes at America's Best Kids.</li>
+						<li>Rock-climbing at Rogue Rock Gym.</li>
+						<li>Participated in a memorial clean-up as an honors activity for Scenic Middle School.</li>
+						<li>Donated clothes, books, and toys to the homeless, needy and charity.</li>
+						<li>Makes sure sibling is fed healthy food and is in a healthy environment.</li>
+					</ul>
+				</div>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">COMPUTER SKILLS</h3>
+				<table width="85%" border="0" style=" padding-bottom: 10px;">
+					<tbody>
+						<tr>
+							<td align="left" valign="top">
+								<h3 style="font-size: 20px; text-indent: 15px; padding-bottom: 10px;">Advanced Skills</h3>
+								<div style="margin-left: 40px; font-size: 18px;">
+									<ul>
+										<li>Video Editing Software</li>
+										<li>Recording Software/Hardware</li>
+										<li>Adobe Premiere</li>
+										<li>Notepad ++</li>
+										<li>HxD (Hex Editor)</li>
+										<li>70 WPM (Keyboarding)</li>
+										<li>YouTube (Managing a channel)</li>
+									</ul>
+								</div>
+							</td>
+							<td align="left" valign="top">
+								<h3 style="font-size: 20px; text-indent: 15px; padding-bottom: 10px;">Intermediate Skills</h3>
+								<div style="margin-left: 40px; font-size: 18px;">
+									<ul>
+										<li>Video Game Design</li>
+										<li>Google SketchUp</li>
+										<li>Adobe After Effects</li>
+										<li>Graphic Design</li>
+										<li>Linux-based OS</li>
+										<li>Google Adsense</li>
+										<li>Google AdWords</li>
+									</ul>
+								</div>
+							</td>
+							<td align="left" valign="top">
+								<h3 style="font-size: 20px; text-indent: 15px; padding-bottom: 10px;">Beginner Skills</h3>
+								<div style="margin-left: 40px; font-size: 18px;">
+									<ul>
+										<li>HTML/CSS Programming</li>
+										<li>Adobe Illustrator</li>
+										<li>Adobe Dreamweaver</li>
+										<li>Google Sheets</li>
+										<li>Google Forums</li>
+										<li>MS Excel</li>
+										<li>MS Powerpoint</li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 style="font-size: 20px; color: white; padding-bottom: 10px;">REFERENCES</h3>
+				<table width="85%" border="0" style="padding-bottom: 40px;">
+					<tbody>
+						<tr>
+							<td align="left" valign="top">
+								<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+									<p>
+										Jeremy Sinks<br> 655 North Third Street<br> Central Point, OR 97502<br>
+										<a style="color: #885ead; text-decoration: none;" href="tel:(541) 494-6300">(541) 494-6300</a></p>
+								</div>
+							</td>
+							<td align="left" valign="top">
+								<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+									<p>
+										Mike Rogan<br> 655 North Third Street<br> Central Point, OR 97502<br>
+										<a style="color: #885ead; text-decoration: none;" href="tel:(541) 494-6300">(541) 494-6300</a></p>
+								</div>
+							</td>
+							<td align="left" valign="top">
+								<div style="margin-left: 25px; font-size: 18px; padding-bottom: 10px;">
+									<p>
+										Mark Walters<br> 574 Grey Hawk Way<br> Central Point, OR 97502<br>
+										<a style="color: #885ead; text-decoration: none;" href="tel:(541) 497-0506">(541) 497-0506</a></p>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>All Rights Reserved &copy;</p>
+		<p><a href="mailto:walters601391@district6.org">Sean Walters</a></p>
+	</div>
+</body>
+
+</html>
