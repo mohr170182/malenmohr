@@ -103,6 +103,7 @@
     border-radius: 15px;
     border-color: #333;
     overflow: hidden;
+    height: auto;
   }
   * {
     padding: 0;
