@@ -87,7 +87,7 @@
     background-size: cover;
   }
   html {
-    background-color: white;
+    background-color: darkblue;
     z-index: -100;
   }
   #wrapper {
@@ -109,12 +109,12 @@
     height: 125px;
     padding-top: 4.6px;
     padding-bottom: 10px;
-    background-color: white;
+    background-color: darkblue;
   }
   #navbar {
     width: 900px;
     height: 52px;
-    background-color: white;
+    background-color: darkblue;
     font-family: "coves";
     font-size: 27.4px;
     text-align: center;
@@ -122,7 +122,7 @@
   }
   #content {
     width: 900px;
-    background-color: white;
+    background-color: darkblue;
     height: auto;
     color: black;
   }
