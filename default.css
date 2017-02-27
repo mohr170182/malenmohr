@@ -1,13 +1,13 @@
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/roboto/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/basic/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/code/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/coves/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/lazer/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/next/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/axis/stylesheet.css");
-@import url("https://notseanwalters.github.io/seanwalters/assets/fonts/streamster/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/roboto/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/basic/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/code/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/coves/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/lazer/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/next/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/axis/stylesheet.css");
+@import url("https://mohr170182.github.io/malenmohr/assets/fonts/streamster/stylesheet.css");
   #background1 {
-    background: url("https://notseanwalters.github.io/seanwalters/assets/images/background3.png");
+    background: url("https://mohr170182.github.io/malenmohr/assets/images/background1.png");
     position: fixed;
     top: 0;
     right: 0;
@@ -23,7 +23,7 @@
     background-size: cover;
   }
   #background2 {
-    background: url("https://notseanwalters.github.io/seanwalters/assets/images/background2.png");
+    background: url("https://mohr170182.github.io/malenmohr/assets/images/background2.png");
     position: fixed;
     top: 0;
     right: 0;
@@ -39,7 +39,7 @@
     background-size: cover;
   }
   #background3 {
-    background: url("https://notseanwalters.github.io/seanwalters/assets/images/background7.png");
+    background: url("https://mohr170182.github.io/malenmohr/assets/images/background3.png");
     position: fixed;
     top: 0;
     right: 0;
@@ -55,7 +55,7 @@
     background-size: cover;
   }
   #background4 {
-    background: url("https://notseanwalters.github.io/seanwalters/assets/images/background5.png");
+    background: url("https://mohr170182.github.io/malenmohr/assets/images/background4.png");
     position: fixed;
     top: 0;
     right: 0;
@@ -71,7 +71,7 @@
     background-size: cover;
   }
   #background5 {
-    background: url("https://notseanwalters.github.io/seanwalters/assets/images/background4.png");
+    background: url("https://mohr170182.github.io/malenmohr/assets/images/background5.png");
     position: fixed;
     top: 0;
     right: 0;
